@@ -1,43 +1,52 @@
-#  Password Cracker (Brute-force & Dictionary Attack)
-
-A lightweight Python tool that demonstrates how attackers can attempt to crack **MD5** and **SHA1** hashes.  
-It supports both **dictionary-based attacks** (using wordlists) and **brute-force attacks** (character combinations).  
- This project is for **educational and cybersecurity learning purposes only**.  
+# 🔐 PasswordCracker - Hash Cracking Tool
+**Author:** shamillshaanuh  
+A simple yet effective password cracking tool for educational and authorized security testing only.
 
 ---
 
-## Installation
+## 📌 Overview
+PasswordCracker is a lightweight Python-based hash cracking tool.  
+It supports multiple cracking modes such as **Brute-Force** and **Dictionary Attack**, making it useful for security students and penetration testers who want to understand how password cracking works.
+
+---
+
+## ✨ Features
+- Supports multiple hashing algorithms (MD5, SHA1, SHA256, etc.)
+- Two cracking modes:
+  - **Brute-Force Attack** (tries all possible character combinations up to a given length)
+  - **Dictionary Attack** (uses a custom wordlist)
+- Adjustable character sets and maximum length for brute-force
+- Works on Linux, macOS, and Windows
+- Easy to extend for new algorithms and modes
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
 ```bash
-# Clone this repository
-git clone https://github.com/YourUsername/PasswordCracker.git
-
-# Navigate into the folder
+git clone https://github.com/shamillshaanuh/PasswordCracker.git
 cd PasswordCracker
+---
+```
+### 2. Install Dependencies
 
-# Install dependencies (optional, standard libraries only)
-        pip install -r requirements.txt
- Usage
+PasswordCracker requires Python 3.
+If not already installed, install Python3:
+```
+sudo apt update
+sudo apt install python3 python3-pip -y
+```
+Usage Guide
+Brute-Force Mode
 
-   Dictionary Attack:
-      python cracker.py --mode dict --hash 5d41402abc4b2a76b9719d911017c592 --algo md5 --wordlist wordlist.txt
-   Brute-force Attack:
-      python cracker.py --mode brute --hash 5d41402abc4b2a76b9719d911017c592 --algo md5 --max 5
+Crack an MD5 hash with max length 5:
+```
+python3 cracker.py --mode brute --hash 5d41402abc4b2a76b9719d911017c592 --algo md5 --max 5
+```
+Dictionary Attack
 
-Example:
-  Hash: MD5("hello") → 5d41402abc4b2a76b9719d911017c592
-
-  Run:
-   python cracker.py --mode brute --hash 5d41402abc4b2a76b9719d911017c592 --algo md5 --max 5
-  Output:
-[+] Password found: hello
- Features
-✔️ Supports MD5 and SHA1
-✔️ Dictionary attack with custom wordlists
-✔️ Brute-force with configurable max length
-✔️ Lightweight – only uses Python standard libraries
-
- License
-This project is licensed for educational use only.
-Please use it responsibly in a controlled environment.
-
-----------------------------------------------------------------------------------------------------------
+Use a wordlist file to crack a hash:
+```
+python3 cracker.py --mode dict --hash 5d41402abc4b2a76b9719d911017c592 --algo md5 --wordlist wordlists/milw0rm-dictionary.txt
+```
