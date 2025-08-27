@@ -28,7 +28,6 @@ It supports multiple cracking modes such as **Brute-Force** and **Dictionary Att
 ```bash
 git clone https://github.com/shamillshaanuh/PasswordCracker.git
 cd PasswordCracker
----
 ```
 ### 2. Install Dependencies
 
@@ -49,7 +48,7 @@ python3 cracker.py --mode brute --hash 5d41402abc4b2a76b9719d911017c592 --algo m
 
 Use a wordlist file to crack a hash:
 ```
-python3 cracker.py --mode dict --hash 5d41402abc4b2a76b9719d911017c592 --algo md5 --wordlist wordlists/milw0rm-dictionary.txt
+python3 cracker.py --mode dict --hash 5d41402abc4b2a76b9719d911017c592 --algo md5 --wordlist path/wordlists.txt
 ```
 ### Example Output
 ```
