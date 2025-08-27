@@ -1,5 +1,5 @@
 #  PasswordCracker - Hash Cracking Tool
-**Author:** shamillshaanuh  
+**Author:** MUHAMMED SHAMIL 
 A simple yet effective password cracking tool for educational and authorized security testing only.
 
 ---
