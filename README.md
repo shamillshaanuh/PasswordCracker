@@ -32,7 +32,7 @@ cd PasswordCracker
 ```
 ### 2. Install Dependencies
 
-PasswordCracker requires Python 3.
+PasswordCracker requires Python. 
 If not already installed, install Python3:
 ```
 sudo apt update
