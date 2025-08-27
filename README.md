@@ -56,7 +56,7 @@ python3 cracker.py --mode dict --hash 5d41402abc4b2a76b9719d911017c592 --algo md
 [*] Starting brute-force attack...
 [+] Hash matched! Password found: hello
 ```
-##Disclaimer
+## Disclaimer
 
 This tool is developed strictly for educational purposes and authorized penetration testing.
 The author is not responsible for any misuse or illegal activity.
