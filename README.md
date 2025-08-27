@@ -38,11 +38,4 @@ Output:
 This project is licensed for educational use only.
 Please use it responsibly in a controlled environment.
 
-------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-Ask ChatGPT
+----------------------------------------------------------------------------------------------------------
