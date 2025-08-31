@@ -1,5 +1,3 @@
-MIT License
-
 Copyright (c) 2025 [MUHAMMED SHAMIL]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
