@@ -1,10 +1,28 @@
+MIT License
 
----
+Copyright (c) 2025 [MUHAMMED SHAMIL]
 
-### 2️⃣ Commit and Push  
-Once you’ve added the file, run these commands inside your project folder:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-```bash
-git add README.md
-git commit -m "Added README with usage and examples"
-git push origin main
+1. The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+2. This Software is provided strictly for educational and cybersecurity
+   research purposes. It must not be used for any illegal, malicious, or
+   unauthorized activity against systems without explicit permission.
+
+3. The author(s) disclaim all liability for any misuse, damage, or consequences
+   arising from the use of this Software.
+
+THE SOFTWARE IS PROVIDED WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
