@@ -41,7 +41,7 @@ sudo apt install python3 python3-pip -y
 
 Use a wordlist file to crack a hash:
 ```
-python3 cracker.py --mode dict --hash 5d41402abc4b2a76b9719d911017c592 --algo md5 --wordlist path/wordlists.txt
+python3 cracker.py --mode dict --hash --algo md5 --wordlist /path
 ```
 ### Example Output
 ```
