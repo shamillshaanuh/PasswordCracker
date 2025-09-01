@@ -38,13 +38,6 @@ sudo apt update
 sudo apt install python3 python3-pip -y
 ```
 ### Usage Guide
-Brute-Force Mode
-
-Crack an MD5 hash with max length 5:
-```
-python3 cracker.py --mode brute --hash 5d41402abc4b2a76b9719d911017c592 --algo md5 --max 5
-```
-### Dictionary Attack
 
 Use a wordlist file to crack a hash:
 ```
