@@ -46,7 +46,7 @@ python3 cracker.py --mode dict --hash --algo md5 --wordlist /path
 ### Example Output
 ```
 [*] Starting brute-force attack...
-[+] Hash matched! Password found: hello
+[+] Hash matched! Password found: ......
 ```
 ## Disclaimer
 
