@@ -13,10 +13,7 @@ It supports multiple cracking modes such as **Brute-Force** and **Dictionary Att
 
 ##  Features
 - Supports multiple hashing algorithms (MD5, SHA1, SHA256, etc.)
-- Two cracking modes:
-  - **Brute-Force Attack** (tries all possible character combinations up to a given length)
-  - **Dictionary Attack** (uses a custom wordlist)
-- Adjustable character sets and maximum length for brute-force
+- **Dictionary Attack** (uses a custom wordlist for Brute Force)
 - Works on Linux, macOS, and Windows
 - Easy to extend for new algorithms and modes
 
